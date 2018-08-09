@@ -1,11 +1,11 @@
 {
   "name": "brto",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "iframe postMessage",
   "main": "index.js",
   "scripts": {
     "start": "webpack --config webpack.config.js --watch & pushstate-server test/childB 9003 & pushstate-server test/child 9001 & pushstate-server test/parent 9000 & pushstate-server dist 9002",
-    "build": "webpack --config webpack.config.js --mode production",
+    "build": "webpack --config webpack.config.js",
     "release": "webpack --config webpack.config.lap.js"
   },
   "keywords": [
