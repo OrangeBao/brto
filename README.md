@@ -4,6 +4,8 @@
 
 ## 安装
 使用<script>标签引入
+或者
+`npm install brto`
 
 ## 使用
 
