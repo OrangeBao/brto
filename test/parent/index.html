@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ROT test</title>
+        <script src="http://localhost:9002/rto.js"></script>
+    </head>
+    <body>
+
+        <iframe src="http://localhost:9001/index.html"></iframe>
+        <iframe src="http://localhost:9003/index.html"></iframe>
+    </body>
+    <script>
+        RTO.openDebugger();
+        RTO.register({
+            'ADD_TO_BAG': function(options) {
+                console.log(options);
+            }
+        })
+
+        window.onload = function() {
+            RTO.addEventListener('PAGE_JUMP', function(options) {
+                console.log(options);
+            });
+            RTO.addEventListener('PAGE_JUMP', function(options) {
+                console.log(options);
+            })
+        }
+    </script>
+</html>

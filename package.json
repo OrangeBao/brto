@@ -1,0 +1,30 @@
+{
+  "name": "brto",
+  "version": "1.0.0",
+  "description": "iframe postMessage",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js --watch & pushstate-server test/childB 9003 & pushstate-server test/child 9001 & pushstate-server test/parent 9000 & pushstate-server dist 9002",
+    "build": "webpack --config webpack.config.js --mode production",
+    "release": "webpack --config webpack.config.lap.js"
+  },
+  "keywords": [
+    "postmessage"
+  ],
+  "engines": {
+    "node": "= 6.11.0"
+  },
+  "author": {
+    "name": "yhbao",
+    "email": "245382441@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OrangeBao/brto.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
