@@ -1,6 +1,6 @@
 {
   "name": "brto",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "iframe postMessage",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,6 @@
   "keywords": [
     "postmessage"
   ],
-  "engines": {
-    "node": "= 6.11.0"
-  },
   "author": {
     "name": "yhbao",
     "email": "245382441@qq.com"

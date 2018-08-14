@@ -81,7 +81,7 @@ msgType可选值为：
 
 |    key    |       描述      |
 |:-------:|:------------- |
-|    userid |    当前用户id   |
+|    userId |    当前用户id   |
 |    type  |    加入购物车接口参数 见http://10.254.2.95:7002/project/122/interface/api/5245 |
 |    params  |    加入购物车接口参数，见http://10.254.2.95:7002/project/122/interface/api/5245 |
 
