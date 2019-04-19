@@ -1,6 +1,6 @@
 {
-  "name": "brto",
-  "version": "1.0.3",
+  "name": "@cmss/brto",
+  "version": "1.0.4",
   "description": "iframe postMessage",
   "main": "index.js",
   "scripts": {

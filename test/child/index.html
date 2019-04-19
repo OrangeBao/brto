@@ -33,7 +33,8 @@
             RTO.send('PAGE_JUMP', {desc: 'i am PAGE_JUMP'});
         }
         function otherPost() {
-            window.parent && window.parent.postMessage({data: '123'}, '*');
+          console.log(window.parent !== window);
+          window.parent && window.parent.postMessage({data: '123'}, '*');
         }
     </script>
 </html>
